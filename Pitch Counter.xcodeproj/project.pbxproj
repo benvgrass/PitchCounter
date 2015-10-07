@@ -14,6 +14,10 @@
 		B31D263A1B2075FC006B4A62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31D26391B2075FC006B4A62 /* Images.xcassets */; };
 		B31D263D1B2075FC006B4A62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31D263B1B2075FC006B4A62 /* LaunchScreen.xib */; };
 		B31D26491B2075FD006B4A62 /* Pitch_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31D26481B2075FD006B4A62 /* Pitch_CounterTests.swift */; };
+		B37A8B841B4D92FA0037624E /* barlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B37A8B831B4D92FA0037624E /* barlogo.png */; };
+		B3CF3A291B4C523F00DEC05B /* PitchersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CF3A281B4C523F00DEC05B /* PitchersTableViewController.swift */; };
+		B3CF3A2B1B4C525800DEC05B /* GamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CF3A2A1B4C525800DEC05B /* GamesTableViewController.swift */; };
+		B3EA2CDA1B5D69FC00FD7233 /* bootscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B3EA2CD91B5D69FC00FD7233 /* bootscreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		B31D26421B2075FD006B4A62 /* Pitch CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31D26471B2075FD006B4A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B31D26481B2075FD006B4A62 /* Pitch_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_CounterTests.swift; sourceTree = "<group>"; };
+		B37A8B831B4D92FA0037624E /* barlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barlogo.png; sourceTree = "<group>"; };
+		B3CF3A281B4C523F00DEC05B /* PitchersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PitchersTableViewController.swift; sourceTree = "<group>"; };
+		B3CF3A2A1B4C525800DEC05B /* GamesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesTableViewController.swift; sourceTree = "<group>"; };
+		B3EA2CD91B5D69FC00FD7233 /* bootscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bootscreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +87,15 @@
 		B31D262C1B2075FC006B4A62 /* Pitch Counter */ = {
 			isa = PBXGroup;
 			children = (
+				B3CF3A281B4C523F00DEC05B /* PitchersTableViewController.swift */,
+				B3CF3A2A1B4C525800DEC05B /* GamesTableViewController.swift */,
 				B31D262F1B2075FC006B4A62 /* AppDelegate.swift */,
 				B31D26341B2075FC006B4A62 /* ViewController.swift */,
 				B31D26361B2075FC006B4A62 /* Main.storyboard */,
 				B31D26391B2075FC006B4A62 /* Images.xcassets */,
 				B31D263B1B2075FC006B4A62 /* LaunchScreen.xib */,
+				B3EA2CD91B5D69FC00FD7233 /* bootscreen.png */,
+				B37A8B831B4D92FA0037624E /* barlogo.png */,
 				B31D26311B2075FC006B4A62 /* Pitch_Counter.xcdatamodeld */,
 				B31D262D1B2075FC006B4A62 /* Supporting Files */,
 			);
@@ -159,11 +171,14 @@
 		B31D26221B2075FC006B4A62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Ben Grass";
 				TargetAttributes = {
 					B31D26291B2075FC006B4A62 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = C49S48L6F3;
 					};
 					B31D26411B2075FD006B4A62 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -195,7 +210,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37A8B841B4D92FA0037624E /* barlogo.png in Resources */,
 				B31D26381B2075FC006B4A62 /* Main.storyboard in Resources */,
+				B3EA2CDA1B5D69FC00FD7233 /* bootscreen.png in Resources */,
 				B31D263D1B2075FC006B4A62 /* LaunchScreen.xib in Resources */,
 				B31D263A1B2075FC006B4A62 /* Images.xcassets in Resources */,
 			);
@@ -218,6 +235,8 @@
 				B31D26351B2075FC006B4A62 /* ViewController.swift in Sources */,
 				B31D26301B2075FC006B4A62 /* AppDelegate.swift in Sources */,
 				B31D26331B2075FC006B4A62 /* Pitch_Counter.xcdatamodeld in Sources */,
+				B3CF3A2B1B4C525800DEC05B /* GamesTableViewController.swift in Sources */,
+				B3CF3A291B4C523F00DEC05B /* PitchersTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Pitch Counter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Pitch Counter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +434,7 @@
 				B31D264E1B2075FD006B4A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B31D264F1B2075FD006B4A62 /* Build configuration list for PBXNativeTarget "Pitch CounterTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +443,7 @@
 				B31D26511B2075FD006B4A62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
